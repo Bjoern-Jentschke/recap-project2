@@ -6,6 +6,6 @@ const buttonBookmark = document.querySelector('[data-js="bookmarkToggle"]')
 console.log(buttonBookmark);
 
 buttonBookmark.addEventListener("click", () => {
-    buttonBookmark.classList.toggle("bookmark--active")
+    buttonBookmark.classList.toggle("bookmark--switchactive")
 })
 
