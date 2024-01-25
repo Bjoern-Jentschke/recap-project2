@@ -1,17 +1,16 @@
 // phew… not a lot going on here. Please add some code!
 
-// 1. add toggle function to bookmark
+// 1.1. add toggle function to bookmark
 console.clear();
 
 const buttonBookmark = document.querySelector('[data-js="bookmarkToggle"]')
 
-console.log(buttonBookmark);
 
 buttonBookmark.addEventListener("click", () => {
     buttonBookmark.classList.toggle("bookmark--active")
 })
 
-// 2. add hidden function to answer box
+// 1.2. add hidden function to answer box
 
 // answerbox1:
 const answerButton = document.querySelector('[data-js="showAnswer"]');
@@ -27,7 +26,7 @@ answerButton.addEventListener("click", () => {
     }
 })
 
-// answerbox2
+// answerbox2:
 
 const answerButtonTwo = document.querySelector('[data-js="showAnswerTwo"]');
 const answerTextTwo = document.querySelector('[data-js="textAnswerTwo"]');
@@ -42,7 +41,7 @@ answerButtonTwo.addEventListener("click", () => {
     }
 });
 
-// answerbox3
+// answerbox3:
 
 const answerButtonThree = document.querySelector('[data-js="showAnswerThree"]');
 const answerTextThree = document.querySelector('[data-js="textAnswerThree"]');
