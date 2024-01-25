@@ -65,7 +65,7 @@ form.addEventListener("submit", (event) => {
    newDiv.append(bookmarkButton);
 });
 
-// Task 4: Form field text counter character 
+// Task 4: Form field text counter character forms
 
 const amountLeft = document.querySelector('[data-js="amountLeft"]');
 const amountLeft2 = document.querySelector('[data-js="amountLeft2"]');
