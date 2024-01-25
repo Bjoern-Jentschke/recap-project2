@@ -1,0 +1,21 @@
+.textarea {
+  height: 10rem;
+  width: 90%;
+  margin: 1rem;
+}
+
+.inputTag {
+  width: 90%;
+  margin: 1rem;
+}
+
+.formH2 {
+  text-align: left;
+  margin: 0 1rem 0 1rem;
+}
+
+.cardForm {
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+}
