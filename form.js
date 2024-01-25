@@ -65,41 +65,8 @@ form.addEventListener("submit", (event) => {
    newDiv.append(bookmarkButton);
 });
 
-// Task 4: Form field text counter
 
-const amountLeft = document.querySelector('[data-js="amountLeft"]');
-const amountLeft2 = document.querySelector('[data-js="amountLeft2"]');
-const maxLength1 = textareaOne.getAttribute('["maxlength"]');
-const maxLength2 = textareaTwo.getAttribute('["maxlength"]');
-
-const updateAmountLeft = (value) => {
-    amountLeft.innerText = value;
-  };
-  
-  updateAmountLeft(maxLength1);
-  
-  textareaOne.addEventListener("input", () => {
-    updateAmountLeft(maxLength1 - textareaOne.value.length);
-  });
-
-
-  const updateAmountLeft2 = (value) => {
-    amountLeft2.innerText = value;
-  };
-  
-  updateAmountLeft2(maxLength2);
-  
-  textareaTwo.addEventListener("input", () => {
-    updateAmountLeft2(maxLength2 - textareaTwo.value.length);
-  });
-
-
-
-
-
-
-
-// other Solution for the svg bookmark without .innerHtml after research
+// other Solution without .innerHtml after research
 // const bookmarkButton = document.createElement("button");
 // bookmarkButton.classList.add("bookmark");
 // bookmarkButton.type = "button";
