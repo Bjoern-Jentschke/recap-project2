@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz-App-Form</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="index.js" defer></script>
+    <script src="form.js" defer></script>
 </head>
 <body>
 
@@ -15,15 +15,15 @@
 
     <main>
 
-    <form>
+    <form data-js="form">
 
-      <ul class="card-list">
+      <ul class="card-list" data-js="unordered">
 
         <li class="card-list__item">
       <article class="cardForm">
         <h2 class="formH2">Your question:</h2>
             <label for="question"></label>
-            <textarea class="textarea" name ="question" id="question"></textarea>
+            <textarea class="textarea" name ="question" id="question" data-js="textareaOne"></textarea>
       </article>
     </li>
 
@@ -31,7 +31,7 @@
       <article class="cardForm">
         <h2 class="formH2">Your answer:</h2>
             <label for="question"></label>
-            <textarea class="textarea" name ="question" id="question"></textarea>
+            <textarea class="textarea" name ="question" id="question" data-js="textareaTwo"></textarea>
       </article>
     </li>
 
@@ -39,7 +39,7 @@
       <article class="cardForm">
         <h2 class="formH2">Tag:</h2>
             <label for="tag"></label>
-            <input class="inputTag" type="text" name ="tag" id="tag"></input>
+            <input class="inputTag" type="text" name ="tag" id="tag" data-js="inputTag"></input>
       </article>
     </li>
     <li class="card-list__item">
