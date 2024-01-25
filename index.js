@@ -12,16 +12,16 @@ buttonBookmark.addEventListener("click", () => {
 })
 
 // 2. add hidden function to answer box
-const answer = document.querySelector('[data-js="showAnswer"]');
-const answerText = document.querySelector('[data-js="textAnswer"]')
+// const answer = document.querySelector('[data-js="showAnswer"]');
+// const answerText = document.querySelector('[data-js="textAnswer"]')
 
-answer.addEventListener("click", () => {
-    answerText.classList.toggle("card__answer--active");
+// answer.addEventListener("click", () => {
+//     answerText.classList.toggle("card__answer--active");
     
-    if (answerText.classList.contains("card__answer--active")) {
-        answer.textContent = "Hide answer";
-    } else {
-        answer.textContent = "Show answer";
-    }
-})
+//     if (answerText.classList.contains("card__answer--active")) {
+//         answer.textContent = "Hide answer";
+//     } else {
+//         answer.textContent = "Show answer";
+//     }
+// })
 
