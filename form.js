@@ -65,12 +65,14 @@ form.addEventListener("submit", (event) => {
    newDiv.append(bookmarkButton);
 });
 
-// Task 4: Form field text counter
+// Task 4: Form field text counter character 
 
 const amountLeft = document.querySelector('[data-js="amountLeft"]');
 const amountLeft2 = document.querySelector('[data-js="amountLeft2"]');
-const maxLength1 = textareaOne.getAttribute('["maxlength"]');
-const maxLength2 = textareaTwo.getAttribute('["maxlength"]');
+const maxLength1 = textareaOne.getAttribute("maxlength");
+const maxLength2 = textareaTwo.getAttribute("maxlength");
+
+console.log(maxLength1);
 
 const updateAmountLeft = (value) => {
     amountLeft.innerText = value;
